@@ -1,0 +1,95 @@
+*{
+     margin: 0;
+    
+}
+
+body{
+    width: 100vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.logo{
+    height: 50px;
+    width: 50px;
+    /* background-color: brown; */
+}
+
+.btn{
+    background: none;
+    /* border-radius: 50%; */
+}
+
+a{
+    color: black;
+}
+
+.menu{
+    font-weight: bold;
+}
+
+.sect1{
+    background-color: aqua;
+}
+
+.foot-setting li {
+    list-style: none;
+}
+
+.foot-setting ul {
+    padding: 0;
+    line-height: 2.795em;
+}
+
+footer li {
+    color: rgba(0, 0, 0, 0.58);
+}
+
+footer li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+footer li {
+    list-style: none;
+    line-height: 2.795em;
+}
+
+.text-adjment {
+    display: flex;
+
+}
+
+@media all and (min-width: 768px) {
+    .width-btw {
+        border-right: 3px solid rgba(0, 0, 0, 0.38);
+    }
+}
+
+
+.final-line-hover h6 {
+    color: #000;
+}
+
+.final-line-hover h6:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.bord_rad2 {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.final_sent {
+    margin-left: 2em;
+}
+
+.final_text {
+    font-size: .925em;
+}
+
+.circle{
+    border-radius: px;
+}
